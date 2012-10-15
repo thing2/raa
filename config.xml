@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.rockmerica.app"
+    version   = "1.0.0">
+
+<name>Rock Across America</name>
+
+<preference rock="android-minSdkVersion" value="7" />
+<preference name="permissions" value="none" />
+<access origin="*" browserOnly="true"/>
+<icon src="icon.png" />
+<description>
+Application has links to the live stream of all different rock stations from states across the country.
+</description>
+
+<author email="josephprimo@live.com">
+Joseph Votto
+</author>
+
+</widget>

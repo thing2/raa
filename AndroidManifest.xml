@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="39"
+	android:versionName="1.0.0"
+	android:windowSoftInputMode="0x00000020"
+	android:installLocation="1"
+	package="com.rockmerica.app"
+	>
+	<supports-screens
+		android:anyDensity="true"
+		android:smallScreens="true"
+		android:normalScreens="true"
+		android:largeScreens="true"
+		android:resizeable="true"
+		>
+	</supports-screens>
+	<uses-permission
+		android:name="android.permission.INTERNET"
+		>
+	</uses-permission>
+	
+	<uses-permission
+		android:name="android.permission.ACCESS_NETWORK_STATE"
+		>
+	</uses-permission>
+
+	<application
+		android:label="@7F050000"
+		android:icon="@drawable/icon"
+		android:debuggable="false"
+		android:hardwareAccelerated="true"
+		>
+		<activity
+			android:label="@7F050000"
+			android:name=".RockAcrossAmerica"
+			android:screenOrientation="-1"
+			android:configChanges="0x000000A0"
+			>
+			<intent-filter
+				>
+				<action
+					android:name="android.intent.action.MAIN"
+					>
+				</action>
+				<category
+					android:name="android.intent.category.LAUNCHER"
+					>
+				</category>
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@7F050000"
+			android:name="com.phonegap.DroidGap"
+			>
+			<intent-filter
+				>
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-sdk
+		android:minSdkVersion="7"
+		>
+	</uses-sdk>
+</manifest>
